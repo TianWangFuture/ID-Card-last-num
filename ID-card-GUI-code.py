@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 layout = [
 	[sg.Text('请输入身份证号前十七位:')],
 	[sg.InputText()],
-	[sg.OK()]
+	[sg.OK()],
   [sg.Text('made with TWFuture (有转载部分） ')]
 ]
 window = sg.Window('TWFuture-ID-card-last-num',layout)
